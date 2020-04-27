@@ -162,13 +162,13 @@ To call components like buttons or the like, however, you need to assign them an
 
 For now, only the following events are supported
 
-click
-dblclick
-mousedown
-mouseup
-mouseenter
-mouseleave
-mousemove
+1. click
+2. dblclick
+3. mousedown
+4. mouseup
+5. mouseenter
+6. mouseleave
+7. mousemove
 
 -----------------------------------------------
 
