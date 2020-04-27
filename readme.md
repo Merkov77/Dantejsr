@@ -48,6 +48,8 @@ Example:
 
 		</script>
 	</body>
+	
+![Image description](fihiby.gif)
 
 As you can see, just write the expression Dan, followed by a method with the name given to the component (be it the label or identifier), and within it an object with the properties. With Dantejsr you can invoke the names of other components within already defined component events, and assign properties, animations, functions and everything you want. However in the given example you have only been able to see how you can invoke one component from another and generate interactivity. But don't forget that you will be able to do something like this:
 
@@ -90,16 +92,23 @@ To make animations it is mandatory to use this syntax inside the object, the onl
 		}
 	})
 
-	Dan.example({
+	Dan.box({
+		className : "row bg-dark text-light font-weight-bold p-4",
 		animate : {
 			transition : [
-				{ color: "blue", background: "red" },
-				{ color: "black", background: "white" }
+				{
+					transform : "scale(0.7)"
+				},{
+					transform : "scale(1)"
+				}
 			],
-			config : { duration: time, iterations: n}
-		}
+			config : { duration: 1000, iterations: 1}
+		},
+		click : () => alert("Hi world")
 	})
 </pre>
+
+![Image description](hiwor.gif)
 
 
 EVENTS
@@ -171,6 +180,8 @@ There is another method that allows us to work with repeated class names, it is 
 		}
 	})
 </pre>
+
+![Image description](buttonsf.gif)
 
 In this example, all the properties assigned to btn1 will be applied to each html element (in this case, buttons) with the same class identifier. The same for btn2.
 
