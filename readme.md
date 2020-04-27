@@ -15,11 +15,11 @@ Surely, you will ask yourself: What do I mean? As in HTML, each tag is itself a 
 
 > Here the explanation of my vision:
 
-> Design: the graphic Part
+1. Design: the graphic Part
 
-> Functional: the logical Part
+2. Functional: the logical Part
 
-> Interactive: flexibility
+3. Interactive: flexibility
 
 So only we will have to think about something, to create, to lay plans, to encourage, and to add events interconnected between components HTML isolated, each one with your properties.
 
