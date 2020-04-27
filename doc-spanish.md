@@ -160,13 +160,13 @@ Sin embargo, para llamar a componentes como botones o similares, debe asignarles
 
 Por ahora, solo se admiten los siguientes eventos
 
-click
-dblclick
-mousedown
-mouseup
-mouseenter
-mouseleave
-mousemove
+1. click
+2. dblclick
+3. mousedown
+4. mouseup
+5. mouseenter
+6. mouseleave
+7. mousemove
 
 -----------------------------------------------
 
