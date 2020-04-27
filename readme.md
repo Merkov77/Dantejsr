@@ -76,8 +76,8 @@ As in the previous case, I use imported CSS but don't put it here, however you c
 
 It requires knowing some rules of use to avoid mistakes:
 
-1.- Any html element can be invoked using the expression Dan
-2.- You can use any property in accordance with the standards already known in HTML and Javascript, except in the case of animations and events, at least as the first property:
+1. Any html element can be invoked using the expression Dan
+2. You can use any property in accordance with the standards already known in HTML and Javascript, except in the case of animations and events, at least as the first property:
 
 
 ## Animations
