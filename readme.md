@@ -25,7 +25,7 @@ So only we will have to think about something, to create, to lay plans, to encou
 
 To design you can use style properties, className, animate and events. For the logical part and additional functions to the design, the events themselves are the required property. From here you can put the properties you want, for example, if it is an image, src or one, href, etc.
 
-USE
+## Use
 
 If you download and install the npm intervening module, you must route its index.html to the dantejsr code base.
 
@@ -80,7 +80,7 @@ It requires knowing some rules of use to avoid mistakes:
 2.- You can use any property in accordance with the standards already known in HTML and Javascript, except in the case of animations and events, at least as the first property:
 
 
-ANIMATIONS
+## Animations
 
 To make animations it is mandatory to use this syntax inside the object, the only thing that can be customized is the animation itself, from-to, and the configuration (animation duration and number of repetitions or iterations). In iterations you can use "Infinity" if you want the animation to repeat infinitely, or define a specific number of times. Any property written in "from" must also be written in "to", otherwise there will be an error.
 
@@ -113,7 +113,7 @@ To make animations it is mandatory to use this syntax inside the object, the onl
 ![Image description](hiwor.gif)
 
 
-EVENTS
+## Events
 
 For events
 
