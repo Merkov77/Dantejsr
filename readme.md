@@ -1,4 +1,4 @@
-![Image description](dantejsr.png)
+![Image description](dantejsr.png | 250x250)
 # Dantejsr
 
 ## npm
