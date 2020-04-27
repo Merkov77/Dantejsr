@@ -20,13 +20,13 @@ Interactive - flexibility
 
 So only we will have to think about something, to create, to lay plans, to encourage, and to add events interconnected between components HTML isolated, each one with your properties.
 
-In order to lay plans you can use properties style, className, cheer up and events. For the logical part and additional functions to the design, the events in themselves are the required property. From here you are free to place the properties that you desire, for instance, if it is about an image, src, or of one to, href, etc. 
+To design you can use style properties, className, animate and events. For the logical part and additional functions to the design, the events themselves are the required property. From here you can put the properties you want, for example, if it is an image, src or one, href, etc.
 
 USE
 
-If you unload and you install the intervening module npm, you owe enrutar his index.html to the code base of dantejsr. 
+If you download and install the npm intervening module, you must route its index.html to the dantejsr code base.
 
-If you use cdn, you should simply place unpkg's script below the structure general web. You need to have a root like class compulsorily or go, there should be a main div where all your application is contained to be able to use this module, otherwise there will be conflict.
+If you use cdn, you simply need to put the unpkg script below the general web structure. It must have a root as a class or id, there must be a main div where it contains all your application to be able to use this module, otherwise there will be conflict.
 
 Example:
 
@@ -49,8 +49,7 @@ Example:
 		</script>
 	</body>
 
-
-Just as you can see, Dan is enough writing the expression, once the component was followed of a method with the given name (be the one of tag or identifier), and indoors of the same an objecto with the properties. With Dantejsr you can invoke the names of other components within events of components already circumscribed, and assigning them properties, animations, functions and all that you desire. However in the example given only you have been able to  see as can invoke a component from another one and generating interactivity. But do not forget that you will be capable to make something like this:
+As you can see, just write the expression Dan, followed by a method with the name given to the component (be it the label or identifier), and within it an object with the properties. With Dantejsr you can invoke the names of other components within already defined component events, and assign properties, animations, functions and everything you want. However in the given example you have only been able to see how you can invoke one component from another and generate interactivity. But don't forget that you will be able to do something like this:
 
 <pre>
 	Dan.box({
@@ -69,17 +68,17 @@ Just as you can see, Dan is enough writing the expression, once the component wa
 	})
 </pre>
 
-As in the previous case, I use css cared about but I do not place it here, however you can appreciate how properties pile.
+As in the previous case, I use imported CSS but don't put it here, however you can customize how the properties are stacked.
 
-You require to know some rules of use to avoid errors:
+It requires knowing some rules of use to avoid mistakes:
 
-1.- Every element HTML can be invoked using the expression They Give
-2.- Any property according to the standards right now known can be used except in the case of animations and events, at least like first property:
+1.- Any html element can be invoked using the expression Dan
+2.- You can use any property in accordance with the standards already known in HTML and Javascript, except in the case of animations and events, at least as the first property:
 
 
 ANIMATIONS
 
-In order to do animations it is obligatory to use this syntax inside the objecto, the only thing that can be personalized is the animation in herself, from to, and the configuration (duration of animation and number of repetitions or repetitions). In iterations you can use Infinity if you want animation to repeat itself infinitely, or circumscribing a number of times brand-name drug. Every property written in from, should be also written in to, otherwise there will be an error.
+To make animations it is mandatory to use this syntax inside the object, the only thing that can be customized is the animation itself, from-to, and the configuration (animation duration and number of repetitions or iterations). In iterations you can use "Infinity" if you want the animation to repeat infinitely, or define a specific number of times. Any property written in "from" must also be written in "to", otherwise there will be an error.
 
 <pre>
 	Dan.example({ //Format
@@ -121,9 +120,9 @@ For events
 	})
 </pre>
 
-You can write the name of any event like key directly, and his value will be a function with the instructions. Within said function you can knock at other components, but you should take some details into account:
+You can write the name of any event as a key directly, and its value will be a function with the instructions. Within this function you can call other components, but you have to take into account some details:
 
-In order to call boxes, only while they are boxes like div, header, section, aside, footer, nav, article, etc.
+To call boxes, only as long as they are boxes like div, header, section, aside, footer, browser, article, etc.
 
 <pre>
 	Dan.component1({
@@ -133,7 +132,7 @@ In order to call boxes, only while they are boxes like div, header, section, asi
 	})
 </pre>
 
-In order to call components like buttons or matches, however, you need to assign them one go, this only happens with these cases. Although it does not mean that you may call them using They Give, without no problem.
+To call components like buttons or the like, however, you need to assign them an ID, this only happens in these cases. It doesn't mean you can't call them using Dan though, without any problem.
 
 
 	<div class="box">Click here</div> 
@@ -151,9 +150,9 @@ In order to call components like buttons or matches, however, you need to assign
 
 -----------------------------------------------
 
-From a component you can also knock at the container for his name, after all it is a box.
+From a component you can also call the container by its name, after all it is a box.
 
-There is another function that it enables working with names of class repeated, he is called Dan.common({}), where the keys of the object that he should contain, common the names of class will be, and your values the properties that will assign to all the elements HTML with the same name class, including logical functions, not only I style.
+There is another method that allows us to work with repeated class names, it is called Dan.common ({}), where the keys of the object that it must contain, will be the common class names, and their values ​​the properties that will be assigned to all the elements html with the same class name, including logical functions, not just style.
 
 	<button class="btn1"> btn 1 </button>
 	<button class="btn2"> btn 2 </button>
@@ -173,10 +172,10 @@ There is another function that it enables working with names of class repeated, 
 	})
 </pre>
 
-In this example all the properties assigned to btn1 will devote themselves to each element HTML (in this case buttons) with the same high-class identifier. The same thing for btn2.
+In this example, all the properties assigned to btn1 will be applied to each html element (in this case, buttons) with the same class identifier. The same for btn2.
 
 
-To use Dantejsr can be a great advantage in multiple senses,
-It is easy, dynamic, interactive, flexible, and you have the possibility of extending They Give like object. You should not worry about the process of obtaining of elements in variables, neither suchlike nothing, only of creating like an artist of the frontend. The method common also proves to be very practical then, you can assign logical instructions to multiple elements with identifiers of class shared. 
+Using Dantejsr can be a great advantage in multiple ways,
+it is easy, dynamic, interactive, flexible and has the possibility to extend Dan as an object. You don't have to worry about the process of converting elements to variables, or anything like that, you'll just be busy developing like a frontend artist. The common method is also very practical because you can assign logical instructions to multiple elements with shared class identifiers.
 
 Author: José Mavo, <jose.mavo.125@gmail.com>
