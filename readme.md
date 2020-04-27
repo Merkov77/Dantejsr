@@ -1,4 +1,5 @@
-![Image description](dantejsrlogo2.png)
+<img src="dantejsr.png" width="40%">.
+
 # Dantejsr
 
 ## npm
