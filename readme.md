@@ -34,7 +34,6 @@ Example:
 
 	<body>
 		<div id="container">
-			<div id="container">
 			<div id="one"> Hi </div>
 			<div id="two"> Bye </div>
 			<div id="three"> Hello, I am Dante </div>
