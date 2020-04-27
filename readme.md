@@ -159,9 +159,20 @@ To call components like buttons or the like, however, you need to assign them an
 	})
 </pre>
 
+
+For now, only the following events are supported
+
+click
+dblclick
+mousedown
+mouseup
+mouseenter
+mouseleave
+mouse movement
+
 -----------------------------------------------
 
-From a component you can also call the container by its name, after all it is a box.
+> From a component you can also call the container by its name, after all it is a box.
 
 There is another method that allows us to work with repeated class names, it is called Dan.common ({}), where the keys of the object that it must contain, will be the common class names, and their values ​​the properties that will be assigned to all the elements html with the same class name, including logical functions, not just style.
 
