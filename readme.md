@@ -1,4 +1,5 @@
-<img src="dantejsrlogo.png" width="40%"> # Dantejsr
+# Dantejsr
+<img src="dantejsrlogo.png" width="40%"> 
 
 ## npm
 
