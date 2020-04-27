@@ -135,11 +135,11 @@ In order to call boxes, only while they are boxes like div, header, section, asi
 
 In order to call components like buttons or matches, however, you need to assign them one go, this only happens with these cases. Although it does not mean that you may call them using They Give, without no problem.
 
-<pre>
+
 	<div class="box">Click here</div> 
-
 	<button id="btn"> Click here </button>
-
+	
+<pre>
 	Dan.box({
 		click : () => btn.innerHTML = "Like"
 	})
@@ -148,18 +148,19 @@ In order to call components like buttons or matches, however, you need to assign
 		dblclick : ()=> alert("Hi world")
 	})
 </pre>
+
 -----------------------------------------------
 
 From a component you can also knock at the container for his name, after all it is a box.
 
 There is another function that it enables working with names of class repeated, he is called Dan.common({}), where the keys of the object that he should contain, common the names of class will be, and your values the properties that will assign to all the elements HTML with the same name class, including logical functions, not only I style.
 
+	<button class="btn1"> btn 1 </button>
+	<button class="btn2"> btn 2 </button>
+	<button class="btn1"> btn 1 </button>
+	<button class="btn2"> btn 2 </button>
+	
 <pre>
-	<button class="btn1"> btn 1 </button>
-	<button class="btn2"> btn 2 </button>
-	<button class="btn1"> btn 1 </button>
-	<button class="btn2"> btn 2 </button>
-
 	Dan.common({
 		btn1 : {
 			className:"btn btn-dark m-2",
