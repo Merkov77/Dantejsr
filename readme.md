@@ -30,7 +30,7 @@ If you use cdn, you should simply place unpkg's script below the structure gener
 
 Example:
 
-<pre>
+
 	<body>
 		<div id="container">
 			<div id="container">
@@ -48,7 +48,7 @@ Example:
 
 		</script>
 	</body>
-</pre>
+
 
 Just as you can see, Dan is enough writing the expression, once the component was followed of a method with the given name (be the one of tag or identifier), and indoors of the same an objecto with the properties. With Dantejsr you can invoke the names of other components within events of components already circumscribed, and assigning them properties, animations, functions and all that you desire. However in the example given only you have been able to  see as can invoke a component from another one and generating interactivity. But do not forget that you will be capable to make something like this:
 
