@@ -1,4 +1,4 @@
-![Image description](dantejsr.png){:height="50%" width="50%"}
+![Image description](dantejsr.png){:height="10%" width="10%"}
 # Dantejsr
 
 ## npm
