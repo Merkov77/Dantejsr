@@ -72,7 +72,7 @@ As you can see, just write the expression Dan, followed by a method with the nam
 	})
 </pre>
 
-As in the previous case, I use imported CSS but don't put it here, however you can customize how the properties are stacked.
+As in the previous case, I use imported CSS but don't put it here, however you can see how the properties are stacked.
 
 It requires knowing some rules of use to avoid mistakes:
 
