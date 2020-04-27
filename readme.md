@@ -9,9 +9,9 @@
 
 > <script src='https://unpkg.com/dantejsr'></script>
 
-Dantejsr is a bookstore developed in javascript, capable to read the code HTML and taking all the identifiers of component, be the id name, or class, creating with these one function for each one, which will be able to receive all the properties that you want to include; Although by default the orientation of the module has been addressed in fast styles, css stackable with bootstrap, and events. The motto that I want to ensure chases the functional and interactive design. 
+Dantejsr is a library developed in javascript, capable of reading the html code and taking all the component identifiers, be it the tag name, id or class, creating with these a function for each one, which can receive all the properties that are want to include; although by default the module orientation has been focused on quick styles, stackable css with bootstrap, and events. The motto to be followed pursues functional and interactive design.
 
-Certainly, you will ask yourself What do I refer myself to?. As in HTML each tag is in herself an independent element, in the javascript also, but now with the ability to dynamically invoke components within others.
+Surely, you will ask yourself: What do I mean? As in HTML, each tag is itself a separate element, in javascript as well, but now with the possibility of invoking other components dynamically through this module.
 
 > Here the explanation of my vision:
 
