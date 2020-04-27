@@ -125,7 +125,7 @@ For events
 	})
 
 	Dan.example({
-		eventName : () => {
+		dblclick : () => {
 			//instructions
 		}
 	})
@@ -168,7 +168,7 @@ mousedown
 mouseup
 mouseenter
 mouseleave
-mouse movement
+mousemove
 
 -----------------------------------------------
 
