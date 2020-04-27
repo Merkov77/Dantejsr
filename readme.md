@@ -199,6 +199,11 @@ There is another method that allows us to work with repeated class names, it is 
 In this example, all the properties assigned to btn1 will be applied to each html element (in this case, buttons) with the same class identifier. The same for btn2.
 
 
+## Webpack
+
+If you use webpack and import a Dan component, and within that component you want to invoke the container of the application, you must do it through "app", "app.property"
+
+
 Using Dantejsr can be a great advantage in multiple ways,
 it is easy, dynamic, interactive, flexible and has the possibility to extend Dan as an object. You don't have to worry about the process of converting elements to variables, or anything like that, you'll just be busy developing like a frontend artist. The common method is also very practical because you can assign logical instructions to multiple elements with shared class identifiers.
 
