@@ -25,7 +25,7 @@ Entonces solo tendremos que pensar en algo, crear, diseñar y agregar eventos in
 
 Para diseñar puede usar propiedades de estilo, className, animación y eventos. Para la parte lógica y las funciones adicionales del diseño, los eventos en sí son la propiedad requerida. Desde aquí puede poner las propiedades que desee, por ejemplo, si es una <img>, src, o una <a>, href, etc.
 
-## Use
+## Uso
 
 Si descarga e instala Dantejsr usando npm, debe enrutar su index.html a la base de código del módulo.
 
@@ -33,7 +33,7 @@ Si usa cdn, simplemente necesita colocar la secuencia de comandos unpkg debajo d
 
 Ejemplo:
 
-
+ 
 	<body>
 		<div id="container">
 			<div id="one"> Hola </div>
