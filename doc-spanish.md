@@ -198,6 +198,8 @@ Hay otro método que nos permite trabajar con nombres de clase repetidos, se lla
 
 En este ejemplo, todas las propiedades asignadas a btn1 se aplicarán a cada elemento html (en este caso, botones) con el mismo identificador de clase. Lo mismo para btn2.
 
+### NOTA: Primero debe invocar un componente con Dan para que luego pueda hacer referencia a él dentro de otro
+
 ## Webpack
 
 Si usas webpack e importas un componente Dan, y dentro de ese componente deseas invocar el contenedor de la aplicación, debes hacerlo a través de "app", "app.property", "app.style.background", "app.addEventListener", etc.
