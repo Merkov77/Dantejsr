@@ -5,7 +5,7 @@
 
 > npm i dantejsr
 
-## cdn
+## cdn last version (Recommended)
 
 > <script src='https://unpkg.com/dantejsr'></script>
 
@@ -202,6 +202,16 @@ In this example, all the properties assigned to btn1 will be applied to each htm
 ## Webpack
 
 If you use webpack and import a Dan component, and within that component you want to invoke the container of the application, you must do it through "app", "app.property"
+
+## Versions
+
+1. dantejsr@1.0.6
+2. dantejsr@1.0.5
+3. dantejsr@1.0.4
+4. dantejsr@1.0.3
+5. dantejsr@1.0.2
+6. dantejsr@1.0.1
+7. dantejsr@1.0.0
 
 ## Conclusion
 
