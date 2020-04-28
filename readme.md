@@ -207,13 +207,13 @@ If you use webpack and import a Dan component, and within that component you wan
 
 ## Versions
 
-7. dantejsr@1.0.6
-6. dantejsr@1.0.5
-5. dantejsr@1.0.4
-4. dantejsr@1.0.3
-3. dantejsr@1.0.2
-2. dantejsr@1.0.1
-1. dantejsr@1.0.0
+- dantejsr@1.0.6
+- dantejsr@1.0.5
+- dantejsr@1.0.4
+- dantejsr@1.0.3
+- dantejsr@1.0.2
+- dantejsr@1.0.1
+- dantejsr@1.0.0
 
 ## Conclusion
 
