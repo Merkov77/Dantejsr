@@ -145,7 +145,7 @@ To call boxes, only as long as they are boxes like div, header, section, aside, 
 	})
 </pre>
 
-To call components like buttons or the like, however, you need to assign them an ID, this only happens in these cases. It doesn't mean you can't call them using Dan though, without any problem.
+However, to call components other than divs, header, section, aside, footer, nav, etc., you must assign them an ID o atributo "name", this only happens in these cases. However, it doesn't mean that you can't call them with Dan without any problem.
 
 
 	<div class="box">Click here</div> 
