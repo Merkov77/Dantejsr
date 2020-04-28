@@ -23,7 +23,7 @@ Surely, you will ask yourself: What do I mean? As in HTML, each tag is itself a 
 
 So only we will have to think about something, to create, to lay plans, to encourage, and to add events interconnected between components HTML isolated, each one with your properties.
 
-To design you can use style properties, className, animate and events. For the logical part and additional functions to the design, the events themselves are the required property. From here you can put the properties you want, for example, if it is an image, src or one, href, etc.
+To design you can use style properties, className, animate and events. For the logical part and additional functions to the design, the events themselves are the required property. From here you can put the properties you want, for example, if it is an image, src or link "<a>", href, etc.
 
 ## Use
 
