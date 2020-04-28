@@ -207,6 +207,7 @@ If you use webpack and import a Dan component, and within that component you wan
 
 ## Versions
 
+- dantejsr@1.0.7 / This is the best supported version so far, it is also stable, don't use lower versions
 - dantejsr@1.0.6
 - dantejsr@1.0.5
 - dantejsr@1.0.4
