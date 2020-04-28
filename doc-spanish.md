@@ -5,7 +5,7 @@
 
 > npm i dantejsr
 
-## cdn última versión (Recomendada)
+## cdn última versión 1.0.7 (Recomendada)
 
 > <script src='https://unpkg.com/dantejsr@latest'></script>
 
