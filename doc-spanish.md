@@ -1,6 +1,8 @@
 # Dantejsr
 <img src="dantejsrlogo.png" width="40%"> 
 
+<img src="version.png" width="20%"> 
+
 ## npm
 
 > npm i dantejsr
