@@ -9,7 +9,7 @@
 
 <img src="version.png" width="20%"> 
 
-> <script src='https://unpkg.com/dantejsr@1.0.7'></script>
+> <script src="https://unpkg.com/dantejsr@1.0.7"></script>
 
 Dantejsr is a library developed in javascript, capable of reading the html code and taking all the component identifiers, be it the tag name, id or class, creating with these a function for each one, which can receive all the properties that are want to include; although by default the module orientation has been focused on quick styles, stackable css with bootstrap, and events. The motto to be followed pursues functional and interactive design.
 
