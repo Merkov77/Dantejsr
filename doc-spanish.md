@@ -25,7 +25,7 @@ Seguramente te preguntarás: ¿a qué me refiero? Al igual que en HTML, cada eti
 
 Entonces solo tendremos que pensar en algo, crear, diseñar y agregar eventos interconectados entre componentes HTML aislados, cada uno con sus propiedades.
 
-Para diseñar puede usar propiedades de estilo, className, animación y eventos. Para la parte lógica y las funciones adicionales del diseño, los eventos en sí son la propiedad requerida. Desde aquí puede poner las propiedades que desee, por ejemplo, si es una <img>, src, o una <a>, href, etc.
+Para diseñar puede usar propiedades de estilo, className, animación y eventos. Para la parte lógica y las funciones adicionales del diseño, los eventos en sí son la propiedad requerida. Desde aquí puede poner las propiedades que desee, por ejemplo, si es una < img >, src, o una etiqueta de link < a >, href, etc.
 
 ## Uso
 
@@ -207,7 +207,7 @@ Si usas webpack e importas un componente Dan, y dentro de ese componente deseas 
 - dantejsr@1.0.6
 - dantejsr@1.0.5
 - dantejsr@1.0.4
-- antejsr@1.0.3
+- dantejsr@1.0.3
 - dantejsr@1.0.2
 - dantejsr@1.0.1
 - dantejsr@1.0.0
