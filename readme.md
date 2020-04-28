@@ -1,13 +1,11 @@
 # Dantejsr
 <img src="dantejsrlogo.png" width="40%"> 
 
-<img src="advice.png" width="20%"> 
-
 ## npm
 
 > npm i dantejsr
 
-## cdn last version (Recommended)
+## cdn last version 1.0.7 (Recommended) 
 
 > <script src='https://unpkg.com/dantejsr@latest'></script>
 
