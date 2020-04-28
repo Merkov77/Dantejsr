@@ -145,7 +145,7 @@ Para llamar a cajas, solo casos como div, encabezado, sección, a un lado, pie d
 	})
 </pre>
 
-Sin embargo, para llamar a componentes como botones o similares, debe asignarles un ID, esto solo sucede en estos casos. Sin embargo, no significa que no puedas llamarlos con Dan sin ningún problema, pero para llamarlos desde eventos de otros componentes debe ser por un nombre de id.
+Sin embargo, para llamar a componentes que no sean divs, header, section, aside, footer, nav, etc., debes asignarles una ID o atributo "name", esto solo sucede en estos casos. Sin embargo, no significa que no puedas llamarlos con Dan sin ningún problema.
 
 	<div class="box">Click here</div> 
 	<button id="btn"> Click here </button>
