@@ -202,6 +202,16 @@ En este ejemplo, todas las propiedades asignadas a btn1 se aplicarán a cada ele
 
 Si usas webpack e importas un componente Dan, y dentro de ese componente deseas invocar el contenedor de la aplicación, debes hacerlo a través de "app", "app.property", "app.style.background", "app.addEventListener", etc.
 
+## Versiones
+
+1. dantejsr@1.0.6
+2. dantejsr@1.0.5
+3. dantejsr@1.0.4
+4. antejsr@1.0.3
+5. dantejsr@1.0.2
+6. dantejsr@1.0.1
+7. dantejsr@1.0.0
+
 ## Conclusion
 
 Usar Dantejsr puede ser una gran ventaja en múltiples formas, es fácil, dinámico, interactivo, flexible y tiene la posibilidad de extender Dan como un objeto. No tienes que preocuparte por el proceso de convertir elementos en variables, ni nada de eso, simplemente estarás ocupado desarrollando como un artista del frontend. El método common también es muy práctico porque puede asignar instrucciones lógicas a múltiples elementos con identificadores de clase compartidos. Lo único que requieres principalmente saber, es manejar objetos. Si amas los objetos esta librería es para tí.
