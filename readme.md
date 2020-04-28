@@ -199,7 +199,7 @@ There is another method that allows us to work with repeated class names, it is 
 
 In this example, all the properties assigned to btn1 will be applied to each html element (in this case, buttons) with the same class identifier. The same for btn2.
 
-### You need to first invoke a component with Dan so you can then reference it within another
+###  NOTE: You need to first invoke a component with Dan so you can then reference it within another
 
 ## Webpack
 
