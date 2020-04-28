@@ -1,13 +1,15 @@
 # Dantejsr
 <img src="dantejsrlogo.png" width="40%"> 
 
+<img src="advice.png" width="20%"> 
+
 ## npm
 
 > npm i dantejsr
 
 ## cdn
 
-> <script src='https://unpkg.com/dantejsr'></script>
+> <script src='https://unpkg.com/dantejsr@latest'></script>
 
 Dantejsr es una biblioteca desarrollada en javascript, capaz de leer el código html y tomar todos los identificadores de componentes, ya sea el nombre de etiqueta, id o clase, creando con estos una función para cada uno, que puede recibir todas las propiedades que se deseen incluir; aunque, por defecto, la orientación del módulo se ha centrado en estilos rápidos, css apilables con bootstrap y eventos. El lema a seguir persigue el diseño funcional e interactivo.
 
