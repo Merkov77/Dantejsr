@@ -198,7 +198,7 @@ Hay otro método que nos permite trabajar con nombres de clase repetidos, se lla
 
 En este ejemplo, todas las propiedades asignadas a btn1 se aplicarán a cada elemento html (en este caso, botones) con el mismo identificador de clase. Lo mismo para btn2.
 
-### NOTA: Primero debe invocar un componente con Dan para que luego pueda hacer referencia a él dentro de otro
+### NOTA: Primero debe invocar un componente con Dan para que luego pueda hacer referencia a él dentro de otro, a menos que tenga una id definida esto no será necesario, sin embargo con clases o nombre de etiqueta no tiene efecto. 
 
 ## Webpack
 
