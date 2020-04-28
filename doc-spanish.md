@@ -1,8 +1,6 @@
 # Dantejsr
 <img src="dantejsrlogo.png" width="40%"> 
 
-<img src="advice.png" width="20%"> 
-
 ## npm
 
 > npm i dantejsr
@@ -204,8 +202,8 @@ Si usas webpack e importas un componente Dan, y dentro de ese componente deseas 
 
 ## Versiones
 
-- dantejsr@1.0.6
-- dantejsr@1.0.5
+- dantejsr@1.0.6 / Esta es la versión de mejor soporte hasta ahora, además es estable, no utilices versiones inferiores
+- dantejsr@1.0.5 
 - dantejsr@1.0.4
 - dantejsr@1.0.3
 - dantejsr@1.0.2
