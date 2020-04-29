@@ -42,7 +42,7 @@ Ejemplo:
 			<div id="two"> Adiós </div>
 			<div id="three"> Hola, Soy Dante </div>
 		</div>
-		<script src='https://unpkg.com/dantejsr@latest'></script>
+		<script src='https://unpkg.com/dantejsr@1.0.7'></script>
 
 		<script type="text/javascript">
 			//Use the module
