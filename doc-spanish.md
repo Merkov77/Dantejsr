@@ -25,13 +25,13 @@ Seguramente te preguntarás: ¿A qué me refiero? Al igual que en HTML, cada eti
 
 Entonces solo tendremos que pensar en algo, crear, diseñar y agregar eventos interconectados entre componentes HTML aislados, cada uno con sus propiedades.
 
-Para diseñar puede usar propiedades de estilo, className, animación y eventos. Para la parte lógica y las funciones adicionales del diseño, los eventos en sí son la propiedad requerida. Desde aquí puede poner las propiedades que desee, por ejemplo, si es una < img >, src, o una etiqueta de link < a >, href, etc.
+Para diseñar puedes usar propiedades de estilo, className, animación y eventos. Para la parte lógica y las funciones adicionales del diseño, los eventos en sí son la propiedad requerida. Desde aquí puedes poner las propiedades que desees, por ejemplo, si es una < img >, src, o una etiqueta de link < a >, href, etc.
 
 ## Uso
 
-Si descarga e instala Dantejsr usando npm, debe enrutar su index.html a la base de código del módulo.
+Si descargas e instalas Dantejsr usando npm, debes enrutar su index.html a la base de código del módulo.
 
-Si usa cdn, simplemente necesita colocar la secuencia de comandos unpkg debajo de la estructura web general. Debe tener una raíz como clase o id, debe haber un div principal donde contenga toda su aplicación para poder usar este módulo, de lo contrario habrá conflicto.
+Si utilizas cdn, simplemente necesitas colocar la secuencia de comandos unpkg debajo de la estructura web general. Debe tener una raíz como clase o id, debe haber un div principal donde contenga toda su aplicación para poder usar este módulo, de lo contrario habrá conflicto.
 
 Ejemplo:
 
@@ -55,7 +55,7 @@ Ejemplo:
 	
 ![Image description](fihiby.gif)
 
-Como puede ver, simplemente escriba la expresión Dan, seguida de un método con el nombre dado al componente (ya sea la etiqueta o el identificador), y dentro de él un objeto con las propiedades. Con Dantejsr puede invocar los nombres de otros componentes dentro de eventos de componentes ya definidos y asignar propiedades, animaciones, funciones y todo lo que desee. Sin embargo, en el ejemplo dado, solo ha podido ver cómo puede invocar un componente de otro y generar interactividad. Pero no olvides que podrás hacer cosas como esta:
+Como puedes ver, simplemente escribe la expresión Dan, seguida de un método con el nombre dado al componente (ya sea la etiqueta o el identificador), y dentro de él un objeto con las propiedades. Con Dantejsr puedes invocar los nombres de otros componentes dentro de eventos de componentes ya definidos y asignar propiedades, animaciones, funciones y todo lo que desees. Sin embargo, en el ejemplo dado, solo has podido ver cómo puedes invocar un componente desde otro y generar interactividad. Pero no olvides que podrás hacer cosas como esta:
 
 <pre>
 	Dan.box({
@@ -74,9 +74,9 @@ Como puede ver, simplemente escriba la expresión Dan, seguida de un método con
 	})
 </pre>
 
-Como en el caso anterior, uso CSS importado pero no lo pongo aquí, sin embargo, puede apreciar cómo se apilan las propiedades.
+Como en el caso anterior, uso CSS importado pero no lo pongo aquí, sin embargo, puedes apreciar cómo se apilan las propiedades.
 
-Requiere conocer algunas reglas de uso para evitar errores:
+Requieres conocer algunas reglas de uso para evitar errores:
 
 1. Se puede invocar cualquier elemento html usando la expresión Dan
 2. Puede usar cualquier propiedad de acuerdo con los estándares ya conocidos en HTML y Javascript, excepto en el caso de animaciones y eventos, al menos como la primera propiedad:
@@ -84,7 +84,7 @@ Requiere conocer algunas reglas de uso para evitar errores:
 
 ## Animaciones
 
-Para realizar animaciones es obligatorio usar esta sintaxis dentro del objeto, lo único que se puede personalizar es la animación en sí, desde-hasta y la configuración (duración de la animación y número de repeticiones o iteraciones). En las iteraciones, puede usar "Infinito" si desea que la animación se repita infinitamente o definir un número específico de veces. Cualquier propiedad escrita en "desde" también debe escribirse en "hasta", de lo contrario habrá un error.
+Para realizar animaciones es obligatorio usar esta sintaxis dentro del objeto, lo único que se puede personalizar es la animación en sí, desde-hasta y la configuración (duración de la animación y número de repeticiones o iteraciones). En las iteraciones, puedes usar "Infinito" si deseas que la animación se repita infinitamente o definir un número específico de veces. Cualquier propiedad escrita en "desde" también debe escribirse en "hasta", de lo contrario habrá un error.
 
 <pre>
 	Dan.example({ //Format
@@ -133,7 +133,7 @@ Para eventos
 	})
 </pre>
 
-Puede escribir el nombre de cualquier evento como una key/llave directamente, y su valor será una función con las instrucciones. Dentro de esta función puede llamar a otros componentes, pero debe tener en cuenta algunos detalles:
+Puede escribir el nombre de cualquier evento como una key/llave directamente, y su valor será una función con las instrucciones. Dentro de esta función puedes llamar a otros componentes, pero debes tener en cuenta algunos detalles:
 
 Para llamar a cajas, solo casos como div, encabezado, sección, a un lado, pie de página, navegador, artículo, etc.
 
@@ -174,7 +174,7 @@ Por ahora, solo se admiten los siguientes eventos
 
 > Desde un componente también puede llamar al contenedor por su nombre, después de todo, es un div.
 
-Hay otro método que nos permite trabajar con nombres de clase repetidos, se llama Dan.common ({}), donde las claves del objeto que debe contener serán los nombres de clase comunes y sus valores las propiedades que se asignará a todos los elementos html con el mismo nombre de clase, incluidas las funciones lógicas, no solo el estilo.
+Hay otro método que nos permite trabajar con nombres de clase repetidos, se llama Dan.common ({}), donde las claves del objeto que debe contener serán los nombres de clase comunes y sus valores las propiedades que se asignarán a todos los elementos html con el mismo nombre de clase, incluidas las funciones lógicas, no solo el estilo.
 
 	<button class="btn1"> btn 1 </button>
 	<button class="btn2"> btn 2 </button>
