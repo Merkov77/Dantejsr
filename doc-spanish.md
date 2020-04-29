@@ -13,7 +13,7 @@
 
 Dantejsr es una biblioteca desarrollada en javascript, capaz de leer el código html y tomar todos los identificadores de componentes, ya sea el nombre de etiqueta, id o clase, creando con estos una función para cada uno, que puede recibir todas las propiedades que se deseen incluir; aunque, por defecto, la orientación del módulo se ha centrado en estilos rápidos, css apilables con bootstrap y eventos. El lema a seguir persigue el diseño funcional e interactivo.
 
-Seguramente te preguntarás: ¿a qué me refiero? Al igual que en HTML, cada etiqueta es en sí misma un elemento separado, también en JavaScript, pero ahora con la posibilidad de invocar dinámicamente otros componentes a través de este módulo.
+Seguramente te preguntarás: ¿A qué me refiero? Al igual que en HTML, cada etiqueta es en sí misma un elemento separado, también en JavaScript, pero ahora con la posibilidad de invocar dinámicamente otros componentes a través de este módulo.
 
 > Aquí la explicación de mi visión:
 
